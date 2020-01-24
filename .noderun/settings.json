@@ -1,0 +1,49 @@
+{
+  "sequence": 70,
+  "template name": "Database Table Lookup",
+  "description": "This interactive app prompts the user for key fields to lookup a database record and displays the results",
+  "image": "/cloud/template-icons/database.png",
+  "open files": [
+    {
+      "name": "public/app.js"
+    },
+    {
+      "name": "getProductLines.js"
+    },
+    {
+      "name": "public/style.css"
+    },
+    {
+      "name": "getProducts.js"
+    },
+    {
+      "name": "onPurchase.js"
+    }
+  ],
+  "routes": {
+    "getProductLines.js": {
+      "method": "get",
+      "route": "getProductLines"
+    },
+    "getProducts.js": {
+      "method": "get",
+      "route": "getProducts"
+    },
+    "removeItem.js": {
+      "method": "post",
+      "route": "removeItem"
+    },
+    "onPurchase.js": {
+      "method": "post",
+      "route": "onPurchase"
+    }
+  },
+  "app start": "index.html",
+  "active tab": 4,
+  "template dir": "database-table-lookup",
+  "current git repository": "",
+  "git repositories": [
+    ""
+  ],
+  "active widgets panel tab": 3
+}
